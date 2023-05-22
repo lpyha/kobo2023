@@ -2,7 +2,7 @@
 import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
-from mnist import load_mnist
+from repo1.mnist import load_mnist
 from PIL import Image
 
 
